@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "CommonJS",
+      "outDir": "dist",
+      "esModuleInterop": true,
+      "strict": true,
+      "types": ["node", "jest"]
+    },
+    "include": ["src", "test", "../merkle-tree-lib/src/index.ts", "../merkle-tree-lib/test/merkle.test.ts"]
+}
